@@ -1,0 +1,12 @@
+#login_container {
+    margin-top: 128px;
+    margin-left: 16%;
+}
+
+#login_container > h1 {
+    color: #333333;
+}
+
+#login_container > p {
+    color: #838383;
+}

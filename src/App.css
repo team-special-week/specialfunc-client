@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+@import '~antd/dist/antd.css';
+
+@layer components {
+  .login_btt {
+    @apply font-['Noto_Sans_KR'] text-sm font-bold border border-zinc-900 hover:border-white rounded-2xl text-zinc-700 hover:text-white bg-white hover:bg-zinc-700 py-[7px] px-[20px] mx-[5px] duration-150;
+  }
+  .header-mamu-obj {
+    @apply h-full font-['Noto_Sans_KR'] text-sm font-bold text-zinc-700 shadow-[0px_-5px_0px_0px_rgba(0,0,0,0)_inset] hover:shadow-[0px_-5px_0px_0px_rgb(63,63,70)_inset] mx-[15px] flex items-center text-center duration-150;
+  }
+  .service-list-obj {
+    @apply w-[calc(25%-11.25px)] h-[450px] bg-zinc-200 text-zinc-700 px-[30px] py-[25px] rounded-2xl;
+  }
+  .service-list-maintext {
+    @apply w-full text-zinc-900 pb-[15px] border-b-[1px] border-zinc-900 mb-[30px] font-['Noto_Sans_KR'] font-bold text-[calc(16px+0.25vmax)] text-center;
+  }
+  .service-list-btt {
+    @apply w-[100px] h-[40px] bg-zinc-900 hover:bg-zinc-50 text-zinc-50 hover:text-zinc-900 rounded-lg font-['Noto_Sans_KR'] font-medium text-[calc(12px+0.25vmax)] flex text-center items-center justify-center duration-75;
+  }
+  .app-btt {
+    @apply w-[20%] min-w-[200px] h-[50px] bg-blue-500 hover:bg-blue-200 text-slate-100 hover:text-slate-700 rounded-lg font-['Noto_Sans_KR'] font-light text-[calc(12px+0.25vmax)] flex text-center items-center justify-center duration-75;
+  }
+  .app-btt2 {
+    @apply w-[20%] min-w-[200px] h-[50px] bg-rose-600 hover:bg-rose-200 text-slate-100 hover:text-slate-700 rounded-lg font-['Noto_Sans_KR'] font-light text-[calc(12px+0.25vmax)] flex text-center items-center justify-center duration-75;
+  }
+  .app-info-input {
+    @apply text-zinc-400 bg-white border-[2px] border-zinc-400 font-['Noto_Sans_KR'] font-light text-[calc(8px+0.25vmax)] p-[3px] rounded-md;
+  }
+  .common_main {
+    @apply w-[60vw] h-[50px] px-[30px] my-[15px] bg-zinc-200 text-zinc-900 font-["Noto_Sans_KR"] font-bold text-[calc(12px+0.25vmax)] flex justify-start items-center text-center rounded-2xl;
+  }
+  .common_setup {
+    @apply w-[60vw] h-auto bg-zinc-200 p-[15px] mb-[35px] flex flex-row justify-center items-start text-center;
+  }
+  .f {
+    @apply w-[26px] h-[26px] rounded-full text-white flex items-center text-center justify-center
+  }
+  .font_kor {
+    @apply font-['Noto_Sans_KR'];
+  }
+  .font_kor p, li, blockquote{
+    @apply font-['Noto_Sans_KR'] font-light;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Main-page {
+  background-color: #E3E3E3;
+}
+
+.main-page {
+  background-color: #FFFFFF;
+
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  color: #313131;
+}
+
+.able-copy {
+  -webkit-user-select:text;
+  -moz-user-select:text;
+  -ms-user-select:text;
+  user-select:text;
+}

@@ -1,0 +1,8 @@
+#kakao-login-btn {
+    background-color: rgb(253,226,11);
+    width: 256px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

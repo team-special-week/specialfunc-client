@@ -1,0 +1,35 @@
+.function-container {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-container {
+    width: 600px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    height: 280px;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
+}
+
+.app-container > .app-name {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.app-name p {
+    font-size: 1.125rem;
+    color: #4A5567;
+    margin-left: 8px;
+}
+
+.func-name {
+    color: #333333;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,42 @@
+.new_app_input_cont {
+    width: 100%;
+}
+
+.new_app_input {
+    height: 48px;
+    padding-left: 16px;
+    border: 1px solid #DEE2E6;
+    border-radius: 8px !important;
+    outline: none;
+}
+
+.input-container {
+    width: 600px;
+    margin-top: 32px;
+}
+
+#textarea-input {
+    width: 98%;
+    padding: 16px;
+    margin: 2px;
+    outline: none;
+}
+
+.app-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+#del-button {
+    background-color: #FF4D4F !important;
+    color: white;
+    margin-left: 4px;
+}
+
+#app-create-btn {
+    background-color: #2396FF;
+    width: 180px;
+}
